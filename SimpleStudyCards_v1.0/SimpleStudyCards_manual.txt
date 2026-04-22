@@ -1,0 +1,52 @@
+SIMPLE STUDY CARDS MANUAL
+for Simple Study Cards version 1.0
+Copyright 2026 Leo Feldman
+———————————————————————————————————————
+1. Running the program:
+	—Open Terminal (macOS/Linux) or PowerShell (Windows)
+	—Navigate to your downloads folder (or wherever you have the SimpleStudyCards_v1.0 folder located)
+		—Do this by typing: cd ~/[location]/SimpleStudyCards_v1.0
+		—Replace [location] with the file path to the SimpleStudyCards_v1.0 folder
+		—For example: cd ~/Documents/SimpleStudyCards
+	—Ensure the latest version of Python 3 is installed
+		—For macOS/Linux, do this by typing: python3 --version
+		—For Windows, do this by typing python --version
+		—If this returns an error such as ‘command not found’, you must download the latest version of Python 3 from python.org and install it
+		—If the version returned is not the latest version of Python, you must download the latest version of Python 3 from python.org and install it
+	—Once you are sure you have the latest version of Python installed, run the program
+		—For macOS/Linux, do this by typing: python3 SimpleStudyCards_app.py
+		—For Windows, do this by typing: python SimpleStudyCards_app.py
+		—If this returns an error, make sure that you are in the SimpleStudyCards_v1.0 folder and the SimpleStudyCards_app is present
+			—Do this by typing: ls
+			—If you do not see SimpleStudyCards_app.py or SimpleStudyCards_app, redownload the SimpleStudyCards_v1.0 folder from GitHub, then navigate to the newly downloaded folder’s directory
+	-If you would like, you can now load the DEMO study card set
+		-Do this by following the instructions for loading a study card set, and for the name of the study card set, use 'demo'
+
+2. Creating a new study card set:
+	-Once the program is running, type '1' at the option select menu and press enter
+	-Complete the information requested
+		-Enter the name of the study card set (the name is not case-sensitive)
+		-Enter the quantity of cards in the study card set
+		-Enter the questions and answers when prompted
+
+3. Loading a study card set:
+	-Once the program is running, type '2' at the option select menu and press enter
+	-Type the name of the study card deck you used when you created it
+		-The name is not case-sensitive
+		-Do not include the file extension of the data file (.ssc)
+	-Type the answer to each presented question and press enter
+		-The answers are not case-sensitive
+	-When you have completed all of the questions, your score will be shown and you will have the option to play again or quit to the option select menu
+		-If you wish to play again, type 'y' when prompted and press enter
+		-If you wish to quit to the option select menu, type 'n' when prompted and press enter
+		-The set reload option is not case-sensitive
+
+4. Quitting the program:
+	-To quit the program from a text input, press the CTRL + C keys
+	-To quit the program from the option select menu, type '4' and press enter
+
+5. Important considerations:
+	-The data file for each study card set has the file extension .ssc, although they can be opened in a standard text editor
+	-DO NOT change the extension, as the Simple Study Cards program will be unable to open the data file
+	-It is not recommended that you change any data from the .ssc data file, as you may encounter issues when loading the study card set
+	-Creating a new study card set with the same name (regardless of case) as a previously created study card set in the same location will OVERWRITE the original study card set data file

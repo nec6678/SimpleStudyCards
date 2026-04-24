@@ -1,0 +1,1 @@
+In this section are previous versions of Simple Study Cards. To download the latest version of Simple Study Cards, visit the main folder and open the subfolder labeled 'SimpleStudyCards_[version_number]', with [version number] being the latest version of Simple Study Cards.

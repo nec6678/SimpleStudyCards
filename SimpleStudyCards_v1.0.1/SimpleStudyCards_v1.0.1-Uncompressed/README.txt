@@ -1,7 +1,7 @@
 SIMPLE STUDY CARDS V1.0.1
 Copyright 2026 Leo Feldman
 ———————————————————————————
-Simple Study Cards is a basic studying tool that allows you to study free of cost and without distractions. It can be run either by running the Python script directly (universal), or by opening the .app file (macOS®) or .bat file (Windows®).
+Simple Study Cards is a basic studying tool that allows you to study free of cost and without distractions. It can be run either by running the Python script directly or by running the designated shortcut files for macOS®, Windows®, and Linux®. The newest release is v1.0.1, and it can be installed by downloading and extracting the .zip file, or by downloading all of the files individually in the uncompressed file folder.
 --
 
 1.1 - PREREQUISITES
